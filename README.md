@@ -50,6 +50,18 @@ Next, go to your Enemy prefab and add the component 'NavMeshAgent'.
 
 <img width="1440" alt="Screenshot 2023-12-11 at 10 05 50 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/1b3ca1d6-1cbd-4519-83b4-2553c769a486">
 
+Enemy AI:
+To really simulate Enemy AI, create an empty object called AI. Align the AI object with the front of the prefab and place the empty object inside the prefab's hierarchy. And add the scripts shown in the photo to the AI empty object. Make reference to the scripts.
+
+<img width="1439" alt="Screenshot 2023-12-12 at 7 51 30 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/48275069-5878-44ac-811f-e0b179eba39f">
+
+As you can see in the Sight Script there is an Obstacle Layer defined as player. THis is done by creating a new Layer and assigning it to your player.
+
+<img width="393" alt="Screenshot 2023-12-12 at 7 54 02 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/86aa147d-8a9b-4efe-b189-081b0fbc71c9">
+
+
+
+
 Now we will create a Plane and place it on top of our Terrain and add a NavMeshSurface component to the Plane. The NavMeshSurface scans the Plane and creates a blueprint of the areas where the Enemy can move without colliding with other objects. The NavMeshSurface is not meant for flying objects. That is why we place a Plane over the Terrain so it seems that the enemies are flying. To make the plane seem invisible we have to remove the Mesh Renderer Component from the plane.
 
 <img width="1437" alt="Screenshot 2023-12-11 at 10 17 26 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/0b57f4b7-c8a1-4625-a206-bb209fe3fdd6">
