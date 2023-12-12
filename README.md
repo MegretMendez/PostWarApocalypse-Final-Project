@@ -1,7 +1,7 @@
 # PostWarApocalypse-Final-Project
-Link to Download the full project from Google Drive: https://drive.google.com/drive/folders/1dK054Oq7JCrMy4VUd7Ql9B_CfjLUTG4A?usp=sharing
+Link to Download the full project from Google Drive: 
 
-Step 1: Create a Sci Fi city using Unity's gameobject Terrain and packages from Unity's AssetStore. From the Asset Store, we imported these 3 packages:
+Step 1: Create a Sci Fi city using Unity's gameobject Terrain and packages from Unity's AssetStore. From the Asset Store, we imported these 4 packages:
 
 Buildings: https://assetstore.unity.com/packages/3d/environments/sci-fi/lowpoly-sci-fi-buildings-set-66885
 
@@ -11,7 +11,10 @@ SpaceShips: https://assetstore.unity.com/packages/3d/vehicles/space/low-poly-spa
 
 Cars: https://assetstore.unity.com/packages/3d/environments/sci-fi/warzone-vehicle-pack-57826
 
-Final Product: //City Photo
+Final Product: 
+
+<img width="991" alt="Screenshot 2023-12-12 at 7 26 58 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/321ca654-6f23-46a8-92f9-1bb80175c68c">
+
 
 Step 2: Create Input Map for flying movement
 First we picked a prefab from the SpaceShips assets and named it Shooter. This spaceship is our player.
