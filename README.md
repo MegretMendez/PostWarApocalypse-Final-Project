@@ -54,7 +54,7 @@ Our enemy will have 3 states:
 5. AttackPlayer - attack the player when the player is within the attacking range.
    - Implementation: When an Enemy is chasing a player and comes close enough to the player it will beging to shoot at it until the player's life is zero or out of range.
      
-For this part make reference to the EnemyFSM script for better understanding.
+For this part make reference to the EnemyFSM and Sight scripts for better understanding.
    
 
 In the NavMeshSurface Component in the Plane, press Bake so it makes the blueprint of the navigational areas. Turn on the Gizmo, in the upper right corner, so you can visualize the NavMeshSurface. The area should appear blue. Lastly diselect the Mesh Renderer from the plane so it seems invisible, as well as its collider.
