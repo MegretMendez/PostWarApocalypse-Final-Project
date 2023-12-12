@@ -30,7 +30,16 @@ Scripts: SpaceShipController and SpaceShipFire.
 
 Movement Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
 
-Step 3: Enemy States and AI Navigation
+Step 5: Managing Enemies
+For this we used a SpaceShip prefab from the packages imported and created a Prefab Variant called Enemy Variant. Add the following components and scripts to the Enemy. As usual, read the scripts' comments for better understanding.
+
+Enemy Variant;
+<img width="1438" alt="Screenshot 2023-12-12 at 7 46 15 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/7fa34c01-5379-4467-a13d-1d680af8d1ec">
+
+For now, ignore the AI in the Enemy Prefab, this will be explained later on.
+
+
+Step 4: Enemy States and AI Navigation
 To give our enemy a sense of intelligence we will use a package from Unity called AI Navigation. 
 
 <img width="800" alt="Screenshot 2023-12-11 at 9 56 29 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/c38c6570-072d-4ad3-a51c-0756b7f3275d">
