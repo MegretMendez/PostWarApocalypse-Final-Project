@@ -26,3 +26,8 @@ Using Scripts we will give the controller's buttons certain actions. You will fi
 Scripts: SpaceShipController and SpaceShipFire.
 
 Step 3: Enemy States and AI Navigation
+To give our enemy a sense of intelligence we will use a package from Unity called AI Navigation. 
+
+<img width="800" alt="Screenshot 2023-12-11 at 9 56 29 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/c38c6570-072d-4ad3-a51c-0756b7f3275d">
+
+Description: Open Package Manager->Select Packages:Unity Registry->Install the 'AI Navigation' Package.
