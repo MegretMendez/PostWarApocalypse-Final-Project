@@ -42,6 +42,8 @@ Now we will create a Plane and place it on top of our Terrain and add a NavMeshS
 
 <img width="1440" alt="Screenshot 2023-12-11 at 10 19 57 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/9dbdca70-1588-4496-98f4-8a75ce5c11d8">
 
+In the NavMeshSurface Component in the Plane, press Bake so it makes the blueprint of the navigational areas. Turn on the Gizmo, in the upper right corner, so you can visualize the NavMeshSurface. The area should appear blue. Lastly diselect the Mesh Renderer from the plane so it seems invisible, as well as its collider.
+
 Enemy States
 Our enemy will have 3 states:
 1. Patrol - roam through the city when a player is not near.
@@ -57,4 +59,4 @@ Our enemy will have 3 states:
 For this part make reference to the EnemyFSM and Sight scripts for better understanding.
    
 
-In the NavMeshSurface Component in the Plane, press Bake so it makes the blueprint of the navigational areas. Turn on the Gizmo, in the upper right corner, so you can visualize the NavMeshSurface. The area should appear blue. Lastly diselect the Mesh Renderer from the plane so it seems invisible, as well as its collider.
+
