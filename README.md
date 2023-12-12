@@ -28,6 +28,8 @@ The Move and Rotate will by Action Type "Value" and Control Type "Stick" since w
 Using Scripts we will give the controller's buttons certain actions. You will find the Scripts in the repository. Each code is documented and commented for better understanding. 
 Scripts: SpaceShipController and SpaceShipFire.
 
+Movement Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
+
 Step 3: Enemy States and AI Navigation
 To give our enemy a sense of intelligence we will use a package from Unity called AI Navigation. 
 
@@ -39,7 +41,7 @@ Next, go to your Enemy prefab and add the component 'NavMeshAgent'.
 
 <img width="1440" alt="Screenshot 2023-12-11 at 10 05 50 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/1b3ca1d6-1cbd-4519-83b4-2553c769a486">
 
-Now we will create a Plane and place it on top of our Terrain and add a NavMeshSurface component to the Plane. The NavMeshSurface scans the Plane and creates a blueprint of the areas where the Enemy can move without colliding with other objects. The NavMeshSurface is not meant for flying objects. That is why we place a Plane over the Terrain so it seems that the enemies are flying. To make the plane seem invisible we have to remove the Mesh Renderer Component from the plane
+Now we will create a Plane and place it on top of our Terrain and add a NavMeshSurface component to the Plane. The NavMeshSurface scans the Plane and creates a blueprint of the areas where the Enemy can move without colliding with other objects. The NavMeshSurface is not meant for flying objects. That is why we place a Plane over the Terrain so it seems that the enemies are flying. To make the plane seem invisible we have to remove the Mesh Renderer Component from the plane.
 
 <img width="1437" alt="Screenshot 2023-12-11 at 10 17 26 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/0b57f4b7-c8a1-4625-a206-bb209fe3fdd6">
 
@@ -60,6 +62,8 @@ Our enemy will have 3 states:
    - Implementation: When an Enemy is chasing a player and comes close enough to the player it will beging to shoot at it until the player's life is zero or out of range.
      
 For this part make reference to the EnemyFSM and Sight scripts for better understanding.
+
+EnemyState Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
    
 
 
