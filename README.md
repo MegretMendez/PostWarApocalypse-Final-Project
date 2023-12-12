@@ -42,4 +42,19 @@ Now we will create a Plane and place it on top of our Terrain and add a NavMeshS
 
 <img width="1440" alt="Screenshot 2023-12-11 at 10 19 57 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/9dbdca70-1588-4496-98f4-8a75ce5c11d8">
 
+Enemy States
+Our enemy will have 3 states:
+1. Patrol - roam through the city when a player is not near.
+   - Implementation: For the roaming we will create various empty GameObjects,which will act as wayPoints, and place the along the plane. The wayPoints will be added to a list and with      a script we'll make the player navigate through the wayPoints until it detects a player.
+     
+3. ChasePlayer - chase the player when the player is within a given range.
+   - Implementation: When the Enemy detects the player within a predetermined range it will chase the player until it is close enough to attack or until the player is out of range and
+     the Enemy will go back to the Patrol state.
+    
+5. AttackPlayer - attack the player when the player is within the attacking range.
+   - Implementation: When an Enemy is chasing a player and comes close enough to the player it will beging to shoot at it until the player's life is zero or out of range.
+     
+For this part make reference to the EnemyFSM script for better understanding.
+   
+
 In the NavMeshSurface Component in the Plane, press Bake so it makes the blueprint of the navigational areas. Turn on the Gizmo, in the upper right corner, so you can visualize the NavMeshSurface. The area should appear blue. Lastly diselect the Mesh Renderer from the plane so it seems invisible, as well as its collider.
