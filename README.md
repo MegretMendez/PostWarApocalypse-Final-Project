@@ -31,3 +31,7 @@ To give our enemy a sense of intelligence we will use a package from Unity calle
 <img width="800" alt="Screenshot 2023-12-11 at 9 56 29 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/c38c6570-072d-4ad3-a51c-0756b7f3275d">
 
 Description: Open Package Manager->Select Packages:Unity Registry->Install the 'AI Navigation' Package.
+
+Next, go to your Enemy prefab and add the component 'NavMeshAgent'.
+
+<img width="1440" alt="Screenshot 2023-12-11 at 10 05 50 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/1b3ca1d6-1cbd-4519-83b4-2553c769a486">
