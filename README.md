@@ -1,7 +1,7 @@
 # PostWarApocalypse-Final-Project
 Link to Download the full project from Google Drive: 
 
-------------------------------------------------------------------------------Step 1---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------Step 1---------------------------------------------------------------------
 
 Create a Sci Fi city using Unity's gameobject Terrain and packages from Unity's AssetStore. From the Asset Store, we imported these 4 packages:
 
