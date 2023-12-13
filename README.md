@@ -30,7 +30,18 @@ Scripts: SpaceShipController and SpaceShipFire.
 
 Movement Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
 
-Step 3: Managing Enemies
+Step 3: Bullet Prefaba
+Our bullet in this case is a sphere with a red material we created. The bullet is an essential part of the game since it is a key component for every other aspect of the game. The bullet will have a script that destroys the bullet when it hits another object. It also has a script that manages how much damage it will substract from an object that has Life.
+
+Bullet: 
+
+<img width="1092" alt="Screenshot 2023-12-12 at 8 12 15 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/7870e06a-1cc6-4952-bfeb-ec6f4c541b17">
+
+Shooting the bullet:
+
+Shooting Demo:
+
+Step 4: Managing Enemies
 For this we used a SpaceShip prefab from the packages imported and created a Prefab Variant called Enemy Variant. Create an empty object called EnemyShipManager and attach the EnemyManager Script. Add the following components and scripts to the Enemy. As usual, read the scripts' comments for better understanding.
 
 EnemyShipManager:
@@ -44,7 +55,7 @@ Enemy Variant:
 For now, ignore the AI in the Enemy Prefab, this will be explained later on.
 
 
-Step 4: Enemy States and AI Navigation
+Step 5: Enemy States and AI Navigation
 To give our enemy a sense of intelligence we will use a package from Unity called AI Navigation. 
 
 <img width="800" alt="Screenshot 2023-12-11 at 9 56 29 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/c38c6570-072d-4ad3-a51c-0756b7f3275d">
