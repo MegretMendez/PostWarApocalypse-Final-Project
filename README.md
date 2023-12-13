@@ -16,6 +16,7 @@ Cars: https://assetstore.unity.com/packages/3d/environments/sci-fi/warzone-vehic
 Final Product: 
 
 <img width="991" alt="Screenshot 2023-12-12 at 7 26 58 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/321ca654-6f23-46a8-92f9-1bb80175c68c">
+
 ----------------------------------------------------------------Step 2---------------------------------------------------------------------
 Create Input Map for flying movement
 
@@ -76,6 +77,7 @@ Enemy Variant:
 <img width="1438" alt="Screenshot 2023-12-12 at 7 46 15 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/7fa34c01-5379-4467-a13d-1d680af8d1ec">
 
 For now, ignore the AI in the Enemy Prefab, this will be explained later on.
+
 ----------------------------------------------------------------Step 6---------------------------------------------------------------------
 
 Enemy States and AI Navigation
