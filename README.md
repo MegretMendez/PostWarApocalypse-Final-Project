@@ -16,8 +16,7 @@ Cars: https://assetstore.unity.com/packages/3d/environments/sci-fi/warzone-vehic
 Final Product: 
 
 <img width="991" alt="Screenshot 2023-12-12 at 7 26 58 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/321ca654-6f23-46a8-92f9-1bb80175c68c">
-------------------------------------------------------------------------------Step 2---------------------------------------------------------------------------------------------------
-
+----------------------------------------------------------------Step 2---------------------------------------------------------------------
 Create Input Map for flying movement
 
 First we picked a prefab from the SpaceShips assets and named it Shooter. This spaceship is our player.
@@ -33,7 +32,9 @@ Scripts: SpaceShipController and SpaceShipFire.
 
 Movement Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
 
-------------------------------------------------------------------------------Step 3--------------------------------------------------------------------------------------------------- Creating Shooter(Player)
+----------------------------------------------------------------Step 3--------------------------------------------------------------------- 
+
+Creating Shooter(Player)
 
 From the SpaceShip packages imported, we selected a ship prefab and create a prefab Variant called 'Shooter'. This Shooter should have a Player Input component sp we can move the player with a controller. We'll use the Input Action Map defined in Step 2. This is the components your player should have:
 
@@ -42,7 +43,8 @@ From the SpaceShip packages imported, we selected a ship prefab and create a pre
 <img width="401" alt="Screenshot 2023-12-12 at 8 27 18 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/cbfa2d93-a1e3-4256-a17f-eb9c27e6990c">
 
 
-------------------------------------------------------------------------------Step 4---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------Step 4---------------------------------------------------------------------
+
 Bullet Prefab
 
 Our bullet in this case is a sphere with a red material we created. The bullet is an essential part of the game since it is a key component for every other aspect of the game. The bullet will have a script that destroys the bullet when it hits another object. It also has a script that manages how much damage it will substract from an object that has Life.
@@ -59,7 +61,8 @@ Shooting Demo:
 
 https://drive.google.com/file/d/1YaIpLni2lbAGyPuyxlPnaO5AZxa5DmBO/view?usp=drive_link
 
-------------------------------------------------------------------------------Step 5---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------Step 5---------------------------------------------------------------------
+
 Managing Enemies
 
 For this we used a SpaceShip prefab from the packages imported and created a Prefab Variant called Enemy Variant. Create an empty object called EnemyShipManager and attach the EnemyManager Script. Add the following components and scripts to the Enemy. As usual, read the scripts' comments for better understanding.
@@ -73,8 +76,8 @@ Enemy Variant:
 <img width="1438" alt="Screenshot 2023-12-12 at 7 46 15 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/7fa34c01-5379-4467-a13d-1d680af8d1ec">
 
 For now, ignore the AI in the Enemy Prefab, this will be explained later on.
+----------------------------------------------------------------Step 6---------------------------------------------------------------------
 
-------------------------------------------------------------------------------Step 6---------------------------------------------------------------------------------------------------
 Enemy States and AI Navigation
 
 To give our enemy a sense of intelligence we will use a package from Unity called AI Navigation. 
@@ -124,7 +127,8 @@ For this part make reference to the EnemyFSM and Sight scripts for better unders
 
 EnemyState Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
 
-------------------------------------------------------------------------------Step 7---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------Step 7---------------------------------------------------------------------
+
 Instantiating a Final Boss when all Enemies have been defeated
 To instantiate a FinalBoss, we created a BossManager that manages a List Bosses. The FinalBoss is added to the list when it is instiated. Even though it is only one boos, later on you will see why we created a list for one element. Of course you'll need a Boss Prefab and attach a Life script. And add a FinalBoss script so that the BossManager can add and destroy it from the list.
 
