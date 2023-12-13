@@ -30,12 +30,13 @@ Scripts: SpaceShipController and SpaceShipFire.
 
 Movement Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
 
-Step 3; Creating Shooter(Player)
+Step 3: Creating Shooter(Player)
 From the SpaceShip packages imported, we selected a ship prefab and create a prefab Variant called 'Shooter'. This Shooter should have a Player Input component sp we can move the player with a controller. We'll use the Input Action Map defined in Step 2. This is the components your player should have:
 
 <img width="396" alt="Screenshot 2023-12-12 at 8 27 02 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/f9bf3c52-8572-4742-93fd-d0e7f73239e1">
 
 <img width="401" alt="Screenshot 2023-12-12 at 8 27 18 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/cbfa2d93-a1e3-4256-a17f-eb9c27e6990c">
+
 
 
 Step 4: Bullet Prefab
@@ -118,5 +119,13 @@ For this part make reference to the EnemyFSM and Sight scripts for better unders
 
 EnemyState Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
    
+Step 7: Instantiating a Final Boss when all Enemies have been defeated
+To instantiate a FinalBoss, we created a BossManager that manages a List Bosses. The FinalBoss is added to the list when it is instiated. Even though it is only one boos, later on you will see why we created a list for one element. Of course you'll need a Boss Prefab and attach a Life script. And add a FinalBoss script so that the BossManager can add and destroy it from the list.
+
+Boss Prefab:
+
+<img width="1098" alt="Screenshot 2023-12-12 at 8 38 26 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/02b9df79-47f0-4130-a1ae-651288ee5af2">
+
+
 
 
