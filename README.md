@@ -126,6 +126,9 @@ Boss Prefab:
 
 <img width="1098" alt="Screenshot 2023-12-12 at 8 38 26 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/02b9df79-47f0-4130-a1ae-651288ee5af2">
 
+BossManager:
+
+<img width="207" alt="Screenshot 2023-12-12 at 8 40 27 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/696f0ff4-a5a8-41d7-bca2-7cb72c43412f">
 
 
 
