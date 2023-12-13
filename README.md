@@ -78,7 +78,11 @@ In the NavMeshSurface Component in the Plane, press Bake so it makes the bluepri
 Enemy States
 Our enemy will have 3 states:
 1. Patrol - roam through the city when a player is not near.
-   - Implementation: For the roaming we will create various empty GameObjects,which will act as wayPoints, and place the along the plane. The wayPoints will be added to a list and with      a script we'll make the player navigate through the wayPoints until it detects a player.
+   - Implementation: For the roaming we will create various empty GameObjects,which will act as wayPoints, and place the along the plane. The wayPoints will be added to a list and          with a script we'll make the player navigate through the wayPoints until it detects a player.
+   - Creating WayPoints and Adding them to a list: Create multiple empty objects and scatter them across the city. To add them in a list you can do it manually in the Unity Editor or        optimize the process and do it via code. In this case since there aren't many waypoints, we opted to do it manually.
+  
+     <img width="1083" alt="Screenshot 2023-12-12 at 8 03 54 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/a31cd335-3297-4b00-a6e9-72e0567d6656">
+
      
 3. ChasePlayer - chase the player when the player is within a given range.
    - Implementation: When the Enemy detects the player within a predetermined range it will chase the player until it is close enough to attack or until the player is out of range and
