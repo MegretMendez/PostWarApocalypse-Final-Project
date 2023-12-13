@@ -37,9 +37,13 @@ Bullet:
 
 <img width="1092" alt="Screenshot 2023-12-12 at 8 12 15 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/7870e06a-1cc6-4952-bfeb-ec6f4c541b17">
 
-Shooting the bullet:
+Shooting the bullet: The bullet should have a point of instantiation, in this case create an empty object 'ShootPoint' and place where you want the bullet to instantiate when firing. I will place 2 ShootPoints, one in each wing of my shooter.
+
+<img width="803" alt="Screenshot 2023-12-12 at 8 16 10 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/56434b50-7fa4-4297-a04f-58f2d60084b4">
 
 Shooting Demo:
+
+https://drive.google.com/file/d/1YaIpLni2lbAGyPuyxlPnaO5AZxa5DmBO/view?usp=drive_link
 
 Step 4: Managing Enemies
 For this we used a SpaceShip prefab from the packages imported and created a Prefab Variant called Enemy Variant. Create an empty object called EnemyShipManager and attach the EnemyManager Script. Add the following components and scripts to the Enemy. As usual, read the scripts' comments for better understanding.
