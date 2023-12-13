@@ -30,7 +30,15 @@ Scripts: SpaceShipController and SpaceShipFire.
 
 Movement Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
 
-Step 3: Bullet Prefaba
+Step 3; Creating Shooter(Player)
+From the SpaceShip packages imported, we selected a ship prefab and create a prefab Variant called 'Shooter'. This Shooter should have a Player Input component sp we can move the player with a controller. We'll use the Input Action Map defined in Step 2. This is the components your player should have:
+
+<img width="396" alt="Screenshot 2023-12-12 at 8 27 02 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/f9bf3c52-8572-4742-93fd-d0e7f73239e1">
+
+<img width="401" alt="Screenshot 2023-12-12 at 8 27 18 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/cbfa2d93-a1e3-4256-a17f-eb9c27e6990c">
+
+
+Step 4: Bullet Prefab
 Our bullet in this case is a sphere with a red material we created. The bullet is an essential part of the game since it is a key component for every other aspect of the game. The bullet will have a script that destroys the bullet when it hits another object. It also has a script that manages how much damage it will substract from an object that has Life.
 
 Bullet: 
@@ -45,7 +53,7 @@ Shooting Demo:
 
 https://drive.google.com/file/d/1YaIpLni2lbAGyPuyxlPnaO5AZxa5DmBO/view?usp=drive_link
 
-Step 4: Managing Enemies
+Step 5: Managing Enemies
 For this we used a SpaceShip prefab from the packages imported and created a Prefab Variant called Enemy Variant. Create an empty object called EnemyShipManager and attach the EnemyManager Script. Add the following components and scripts to the Enemy. As usual, read the scripts' comments for better understanding.
 
 EnemyShipManager:
@@ -59,7 +67,7 @@ Enemy Variant:
 For now, ignore the AI in the Enemy Prefab, this will be explained later on.
 
 
-Step 5: Enemy States and AI Navigation
+Step 6: Enemy States and AI Navigation
 To give our enemy a sense of intelligence we will use a package from Unity called AI Navigation. 
 
 <img width="800" alt="Screenshot 2023-12-11 at 9 56 29 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/c38c6570-072d-4ad3-a51c-0756b7f3275d">
