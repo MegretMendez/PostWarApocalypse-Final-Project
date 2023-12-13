@@ -142,5 +142,9 @@ BossManager:
 
 <img width="207" alt="Screenshot 2023-12-12 at 8 40 27 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/696f0ff4-a5a8-41d7-bca2-7cb72c43412f">
 
+----------------------------------------------------------------Step 8---------------------------------------------------------------------
+
+WinOrLose Conditions
+To check if the player won or lost, create an Empty Object called WinOrLose and attache a Script called 'WavesGameMode. In our game the win Condition is that the Boss list empty, meaning that we have defeated the Final Boss. The lose Condition is that the Player's life is zero. Make reference to this script where the logistics of the condition are explained.
 
 
