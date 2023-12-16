@@ -69,7 +69,7 @@ In Step 4 we used various sections of the course: "Manipulation of primitives an
 
 Managing Enemies
 
-For this we used a SpaceShip prefab from the packages imported and created a Prefab Variant called Enemy Variant. Create an empty object called EnemyShipManager and attach the EnemyManager Script. Add the following components and scripts to the Enemy. As usual, read the scripts' comments for better understanding.
+For this we used a SpaceShip prefab from the packages imported and created a Prefab Variant called Enemy Variant. Create an empty object called EnemyShipManager and attach the EnemyManager Script. Add the following components and scripts to the Enemy. As usual, read the scripts' comments for better understanding. Due to processing problems with Unity, instead of instantiating Enemies on Run time, we scattered them across the map manually but the EnemyManager was in charge of adding them automatically on the list.
 
 EnemyShipManager:
 
@@ -80,6 +80,8 @@ Enemy Variant:
 <img width="1438" alt="Screenshot 2023-12-12 at 7 46 15 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/7fa34c01-5379-4467-a13d-1d680af8d1ec">
 
 For now, ignore the AI in the Enemy Prefab, this will be explained later on.
+
+In this step we used advanced methods of the "Programming by events" and "Hierearchy,clones, and prefabs" sections of the course Syllabus.
 
 ----------------------------------------------------------------Step 6---------------------------------------------------------------------
 
@@ -132,6 +134,8 @@ For this part make reference to the EnemyFSM and Sight scripts for better unders
 
 EnemyState Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
 
+In this step. possibly the most time consuming part of our project, with the help of the "Programming by Events' of the Syllabus, we were able to implement a custom AI Navigation System for our Enemies.
+
 ----------------------------------------------------------------Step 7---------------------------------------------------------------------
 
 Instantiating a Final Boss when all Enemies have been defeated
@@ -145,9 +149,14 @@ BossManager:
 
 <img width="207" alt="Screenshot 2023-12-12 at 8 40 27 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/696f0ff4-a5a8-41d7-bca2-7cb72c43412f">
 
+We used methods from "Programming by Events" and "Hierarchy,clones, and prefabs" sections of the Syllabus.
 ----------------------------------------------------------------Step 8---------------------------------------------------------------------
 
 WinOrLose Conditions
 To check if the player won or lost, create an Empty Object called WinOrLose and attache a Script called 'WavesGameMode. In our game the win Condition is that the Boss list empty, meaning that we have defeated the Final Boss. The lose Condition is that the Player's life is zero. Make reference to this script where the logistics of the condition are explained.
+
+Lastly, we used skills learned from the "Programming by Events" section of the course Syllabus/
+
+-END-
 
 
