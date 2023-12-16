@@ -34,6 +34,7 @@ Scripts: SpaceShipController and SpaceShipFire.
 
 Movement Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
 
+We were able to implement these techniques thanks to the "" section of the Syllabus.
 ----------------------------------------------------------------Step 3--------------------------------------------------------------------- 
 
 Creating Shooter(Player)
