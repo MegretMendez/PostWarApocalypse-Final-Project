@@ -34,7 +34,7 @@ Scripts: SpaceShipController and SpaceShipFire.
 
 Movement Demo: https://drive.google.com/file/d/107JOr5QnSGGcdk9Jpr8te2GqrauwSG-F/view?usp=drive_link
 
-We were able to implement these techniques thanks to the "" section of the Syllabus.
+We were able to implement these techniques thanks to the "Programming by Events" section of the Syllabus.
 ----------------------------------------------------------------Step 3--------------------------------------------------------------------- 
 
 Creating Shooter(Player)
@@ -45,7 +45,7 @@ From the SpaceShip packages imported, we selected a ship prefab and create a pre
 
 <img width="401" alt="Screenshot 2023-12-12 at 8 27 18 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/cbfa2d93-a1e3-4256-a17f-eb9c27e6990c">
 
-
+We applied the "Hierarchy, clones, and prefabs" part of the course Syllabus.
 ----------------------------------------------------------------Step 4---------------------------------------------------------------------
 
 Bullet Prefab
@@ -64,6 +64,7 @@ Shooting Demo:
 
 https://drive.google.com/file/d/1YaIpLni2lbAGyPuyxlPnaO5AZxa5DmBO/view?usp=drive_link
 
+In Step 4 we used various sections of the course: "Manipulation of primitives and composites", "Hierarchy,clones, and prefabs", and "Programming by events".
 ----------------------------------------------------------------Step 5---------------------------------------------------------------------
 
 Managing Enemies
