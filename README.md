@@ -122,7 +122,7 @@ Enemy States
 Our enemy will have 3 states:
 1. Patrol - roam through the city when a player is not near.
    - Implementation: For the roaming we will create various empty GameObjects,which will act as wayPoints, and place the along the plane. The wayPoints will be added to a list and          with a script we'll make the player navigate through the wayPoints until it detects a player.
-   - Creating WayPoints and Adding them to a list: Create multiple empty objects and scatter them across the city. To add them in a list you can do it manually in the Unity Editor or        optimize the process and do it via code. In this case since there aren't many waypoints, we opted to do it manually.
+   - Creating WayPoints and Adding them to a list: Create multiple empty objects and scatter them across the city. To add them in a list you can do it manually in the Unity Editor or        optimize the process and do it via code. In this case since there aren't many waypoints, we opted to do it manually to eliminate any possible bugs or errors upon adding the            waypoints to the list.
   
      <img width="1083" alt="Screenshot 2023-12-12 at 8 03 54 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/a31cd335-3297-4b00-a6e9-72e0567d6656">
 
