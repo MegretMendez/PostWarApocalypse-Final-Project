@@ -16,6 +16,7 @@ Cars: https://assetstore.unity.com/packages/3d/environments/sci-fi/warzone-vehic
 Final Product: 
 
 <img width="991" alt="Screenshot 2023-12-12 at 7 26 58 PM" src="https://github.com/MegretMendez/PostWarApocalypse-Final-Project/assets/142510070/321ca654-6f23-46a8-92f9-1bb80175c68c">
+
 In this part we used elements from the topics "Elaboration of scenery with maps and brushes" and "Textures" from the Course Syllabus
 
 ----------------------------------------------------------------Step 2---------------------------------------------------------------------
